@@ -22,3 +22,8 @@ This widget includes the following features (as per assignment PDF):
 Each feature is toggleable via an icon-based widget panel.
 
 ---
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/CodeWithVikash1/Accessiblitiy-Widget.git
+cd Accessiblitiy-Widget
