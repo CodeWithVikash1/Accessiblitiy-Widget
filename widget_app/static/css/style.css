@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.widget-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 340px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  text-align: center;
+}
+
+.widget-panel h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.section {
+  margin-top: 15px;
+}
+
+.section h4 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.icon-bar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.acc-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.acc-btn:hover {
+  background: #ddd;
+  transform: scale(1.1);
+}
+
+.acc-btn.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Accessibility Toggle Classes */
+.high-contrast {
+  background: #000 !important;
+  color: yellow !important;
+}
+
+.big-text {
+  font-size: 1.5rem !important;
+}
+
+.dyslexia-font {
+  font-family: 'OpenDyslexic', Arial, sans-serif !important;
+}
+
+.highlight-links a {
+  background: yellow;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hide-images img {
+  display: none !important;
+}
+
+.cursor-large {
+  cursor: url('https://cur.cursors-4u.net/cursors/cur-9/cur816.cur'), auto !important;
+}
+
+.pause-animations * {
+  animation: none !important;
+  transition: none !important;
+}
+
+.outline-visible *:focus,
+.outline-visible *:hover {
+  outline: 2px dashed red !important;
+}
